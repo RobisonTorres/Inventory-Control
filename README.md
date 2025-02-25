@@ -38,14 +38,14 @@ Follow these steps to set up and run the application:
 
 1. **Clone the repository** to your local machine:
    ```bash
-   git clone https://github.com/RobisonTorres/Stock_Management_System.git
-   cd Stock_Management_System
+   git clone https://github.com/RobisonTorres/Stock_Management_System.git](https://github.com/RobisonTorres/Inventory_Control_Flask.git
    ```  
 
 2. **Set up the database** in SQL Server by executing:
    ```sql
    CREATE DATABASE stock_db;
-   ```  
+   ```
+  2.1 Don't forget to change the sql server connection in __init__.py.
   
 3. **Install dependencies**:
    ```bash
@@ -57,4 +57,4 @@ Follow these steps to set up and run the application:
    python run_app.py
    ```  
 
-5. Click on the link provided in the terminal to access the application. 
+5. Click on the link provided in the terminal to access the application, e.i: http://127.0.0.1:5000. 
